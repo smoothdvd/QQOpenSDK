@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                           }
   s.author              = { 'Tencent' => 'open@qq.com' }
   s.platform            = :ios
-  s.source              = { :git => 'https://github.com/smoothdvd/QQOpenSDK.git', :tag => 'v#{s.version}' }
+  s.source              = { :git => 'https://github.com/smoothdvd/QQOpenSDK.git', :tag => "v#{s.version}" }
   s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   s.libraries           = 'iconv', 'sqlite3', 'stdc++', 'z'
   s.ios.vendored_frameworks = 'sdk/TencentOpenAPI.framework'
