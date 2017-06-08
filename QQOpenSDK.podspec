@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                = 'QQOpenSDK'
-  s.version             = '3.2.0'
-  s.summary             = 'Tencent QQ Open SDK 3.2.0 full version'
+  s.version             = '3.2.1'
+  s.summary             = 'Tencent QQ Open SDK 3.2.1 full version'
   s.requires_arc        = true
   s.homepage            = 'http://open.qq.com/'
   s.license             = { :type => 'LGPL', :text => <<-LICENSE
