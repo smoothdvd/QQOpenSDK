@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'sdk/TencentOpenAPI.framework'
   s.ios.resource        = 'sdk/TencentOpenApi_IOS_Bundle.bundle'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
 end
