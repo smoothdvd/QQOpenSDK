@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'QQOpenSDK'
-  s.version             = '3.5.1'
+  s.version             = '3.5.2'
   s.summary             = 'Tencent QQ Open SDK 3.5.1 lite version'
   s.requires_arc        = true
   s.homepage            = 'http://open.qq.com/'
@@ -16,5 +16,4 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'sdk/TencentOpenAPI.framework'
   s.ios.resource        = 'sdk/TencentOpenApi_IOS_Bundle.bundle'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
 end
